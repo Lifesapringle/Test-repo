@@ -1,0 +1,63 @@
+{
+    "version": 1,
+    "name": "E",
+    "maps": [
+        {
+            "name": "Interact",
+            "id": "c79728c9-f163-4270-94cb-0afcf46ffb42",
+            "actions": [
+                {
+                    "name": "left click",
+                    "type": "PassThrough",
+                    "id": "c69493ef-ed2e-4339-9687-9093bb72adef",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "96e014f7-3b7f-4c41-8608-cb4ac2a44358",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "left click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "93d3982b-5bdd-49b0-8a73-0f3a958efadd",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "left click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "New Control Scheme",
+            "bindingGroup": "New Control Scheme",
+            "devices": [
+                {
+                    "devicePath": "<Mouse>",
+                    "isOptional": false,
+                    "isOR": false
+                },
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
