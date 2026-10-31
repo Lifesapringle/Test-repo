@@ -8667,7 +8667,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::hiddenbutton
   mainmenu: {fileID: 0}
-  Settingspanel: {fileID: 0}
+  Settings: {fileID: 0}
 --- !u!1 &3433055689203435577
 GameObject:
   m_ObjectHideFlags: 0

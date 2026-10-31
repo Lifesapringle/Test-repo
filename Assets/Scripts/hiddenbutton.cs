@@ -12,8 +12,11 @@ public class hiddenbutton : MonoBehaviour
 
     public void Quitgame()
     {
-        Application.Quit();
-        Debug.Log("Quit Game");
+     #if UNITY_EDITOR
+         UnityEditor.EditorApplication.ExitPlaymode();
+     #else
+         Application.quit();
+     #endif
     }
 
     public void opensettings()
