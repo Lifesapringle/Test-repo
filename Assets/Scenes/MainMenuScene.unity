@@ -651,6 +651,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &837698970 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8724938620959155027, guid: d0f0627616a502043b5dedcced67574e, type: 3}
+  m_PrefabInstance: {fileID: 2088173475}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &901868942 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1659064964264050084, guid: d0f0627616a502043b5dedcced67574e, type: 3}
@@ -790,6 +795,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::settingscanvasswitch
   _debugmode: 1
+  _optionsToLoadAfterClickingaudio: Audio
+  _optionsToLoadAfterClickinggraphics: Graphics
+  _optionsToLoadAfterClickingcontrols: controls
+  _optionsToLoadAfterClickingaccessability: accessability
+  graphics: {fileID: 1721423709}
+  audio: {fileID: 1720515671}
+  controls: {fileID: 837698970}
+  accessability: {fileID: 1540859884}
 --- !u!1 &1527116186 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 310121698823387893, guid: d0f0627616a502043b5dedcced67574e, type: 3}
@@ -808,6 +821,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::settingsbuttonmanager
   _buttonType: 1
+--- !u!1 &1540859884 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4303788433205856887, guid: d0f0627616a502043b5dedcced67574e, type: 3}
+  m_PrefabInstance: {fileID: 2088173475}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1720515671 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5383978370713595462, guid: d0f0627616a502043b5dedcced67574e, type: 3}
+  m_PrefabInstance: {fileID: 2088173475}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1721423709 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4152328801721748515, guid: d0f0627616a502043b5dedcced67574e, type: 3}
+  m_PrefabInstance: {fileID: 2088173475}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1755284420 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3431491195062580925, guid: d0f0627616a502043b5dedcced67574e, type: 3}
