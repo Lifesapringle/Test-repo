@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -29,5 +30,10 @@ public class hiddenbutton : MonoBehaviour
     {
         Settings.SetActive(false);
         mainmenu.SetActive(true);
+    }
+
+    public void Play()
+    {
+        SceneManager.LoadScene(2);
     }
 }
