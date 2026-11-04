@@ -14,17 +14,7 @@ public class settingsmenu : MonoBehaviour
 
     public void OnChangeSlider(float Value)
     {
-        switch (mixer)
-        {
-            case AudioMixMode.LinearAudioSourceVolume;
-                AudioSource.volume = Value;
-                break;
-            case AudioMixMode.LinearMixerVolume:
-                Mixer.SetFloat("Volume", (-80 + Value * 100));
-                break;
-                case AudioMixMode.LogrithmicMixerVolume;
-                Mixer.SetFloat("Volume", Mathf.Log10(Value) * 20);
-        }
+        
     }
 
     public enum AudioMixMode
